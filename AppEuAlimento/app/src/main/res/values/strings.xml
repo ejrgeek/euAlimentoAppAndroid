@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">euAlimento</string>
+    <string name="app_title">euAlimento</string>
+    <string name="hint_seu_nome">Seu nome</string>
+    <string name="botao_text_enviar">Enviar</string>
+    <string name="hamburguer">Hamburguer</string>
+    <string name="text_menos">-</string>
+    <string name="text_quant_produto">0</string>
+    <string name="valor_produto">Preço: R$ 7,50</string>
+    <string name="text_mais">+</string>
+    <string name="text_comprar">Comprar</string>
+    <string name="text_valor_total">Valor Total</string>
+    <string name="text_saldo_conta">Saldo</string>
+</resources>

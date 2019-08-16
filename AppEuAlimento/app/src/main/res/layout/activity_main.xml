@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text_app_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/app_title"
+        android:textAlignment="center"
+        android:textSize="35sp" />
+
+    <ImageView
+        android:id="@+id/image_hamburguer"
+        android:layout_width="152dp"
+        android:layout_height="210dp"
+        android:layout_below="@+id/text_app_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25sp"
+        android:src="@drawable/hamburguer" />
+
+    <TextView
+        android:id="@+id/text_produto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image_hamburguer"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="@string/hamburguer"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/text_valor_produto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_produto"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:gravity="center"
+        android:text="@string/valor_produto"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/text_quant_produto"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_valor_produto"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="@string/text_quant_produto"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/botao_menos"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/text_valor_produto"
+        android:layout_toStartOf="@id/text_quant_produto"
+        android:layout_toLeftOf="@id/text_quant_produto"
+        android:text="@string/text_menos"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/botao_mais"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/text_valor_produto"
+        android:layout_toEndOf="@id/text_quant_produto"
+        android:layout_toRightOf="@id/text_quant_produto"
+        android:text="@string/text_mais"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/botao_comprar"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_quant_produto"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/text_comprar"
+        android:textSize="20sp"
+        android:textAllCaps="false" />
+
+    <TextView
+        android:id="@+id/text_valor_total"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/botao_comprar"
+        android:layout_marginTop="10dp"
+        android:text="@string/text_valor_total"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/text_saldo_conta"
+        android:layout_below="@id/text_valor_total"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_saldo_conta"
+        android:textSize="20sp"
+        android:textAlignment="center"/>
+
+
+</RelativeLayout>
